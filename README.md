@@ -1,4 +1,4 @@
-# ETERA
+# CEETNet
 # Run Flow
 
 Use `configs/SEED.yaml` for SEED and `configs/SEED_IV.yaml` for SEED-IV.
@@ -47,7 +47,7 @@ CUDA_VISIBLE_DEVICES=<GPU_ID> python train_cross_subject.py \
   --test-subject <SUBJECT_ID>
 ```
 
-## 4. Train ETEA-CGRA
+## 4. Train CEETNet
 
 Run this after the matching EEG-TopoEncoder baseline checkpoints are available.
 
